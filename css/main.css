@@ -1,0 +1,308 @@
+/* ====================================================
+  Template Name: WordPress Fair HTML5 landing page
+  Template URI: http://dreamroadtech.com/templates/morix-preview/
+  Description: WordPress Fair HTML5 landing page
+  Author: Abc It Park
+  Author URI: http://www.abcitpark.com
+  version: 1.0
+==================================================== */
+
+
+/* CSS Index
+------------------------------------
+
+01. Template Default CSS 
+02. header css
+
+
+
+
+
+
+*/
+
+
+/* ====================================================
+  Google Fonts
+==================================================== */
+
+@import url('https://fonts.googleapis.com/css?family=Karla:400,700|Rubik:300,400,500,700&display=swap');
+
+/* ..................................
+ 01. Template Default CSS 
+.................................. */
+
+body {
+    font-family: 'Karla', sans-serif;
+    font-size: 14px;
+}
+
+a,
+.button {
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+
+a:focus,
+.btn:focus {
+    text-decoration: none;
+    outline: none;
+    box-shadow: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+}
+
+p {
+    line-height: 32px;
+}
+
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+li a {
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    color: inherit;
+}
+
+a {
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.form-control:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+
+/* ..................................
+ 02. Template Default CSS 
+.................................. */
+
+.pd-tp {
+    padding-top: 100px;
+}
+
+.pd-bm {
+    padding-bottom: 120px;
+}
+
+.mg-tp {
+    margin-top: 120px;
+}
+
+
+/* ====================================================
+   Author's custom styles
+   ==================================================== */
+
+
+/* ..................................
+ 01. header css 
+.................................. */
+
+
+/* ..................................
+ 02. home CSS 
+.................................. */
+
+.services-section {
+    background: #F5F3FD;
+}
+
+.title-area h2 {
+    font-size: 58px;
+    line-height: 70px;
+    font-weight: 700;
+    color: #111111;
+    text-transform: uppercase;
+}
+
+.title-area p {
+    color: #242424;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.line {
+    border: 2px solid #FFC239;
+    margin-right: 20px;
+    height: 0px;
+    width: 60px;
+    display: inline-block;
+    position: relative;
+}
+
+.services-item {
+    background: #fff;
+    padding: 30px;
+    border-left: 5px solid #FFC239;
+}
+
+.services-item i {
+    font-size: 54px;
+    color: #FFC239;
+}
+
+.services-item h5 {
+    margin: 30px 0 20px 0;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.services-item p {
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+.services-img {
+    background-image: url('../img/about.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+.services-content {
+    background: #FFC239;
+    padding: 40px;
+    color: #fff;
+}
+
+.services-content h3 {
+    font-size: 44px;
+    line-height: 53px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.services-content span {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.services-content span i {
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 900;
+    margin-right: 20px;
+}
+
+.services-content p {
+    font-size: 17px;
+    line-height: 26px;
+    font-weight: 400;
+    margin-top: 25px;
+}
+
+.services-content a {
+    background: #0caed4;
+    border-radius: 0;
+    font-size: 16px;
+    line-height: 23px;
+    font-weight: 600;
+    padding: 10px 30px;
+    margin: 10px 0 50px 0;
+}
+
+
+/* ..................................
+ 03. about CSS 
+.................................. */
+
+.work-item {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 100%;
+    display: table;
+    cursor: pointer;
+}
+
+.work-content {
+    height: 100%;
+    width: 100%;
+    background: #FFC239;
+    vertical-align: middle;
+    display: none;
+    opacity: .8;
+}
+
+.work-item:hover .work-content {
+    display: table-cell;
+}
+
+.img-1 {
+    background-image: url('../img/work1.jpg');
+}
+
+.img-2 {
+    background-image: url('../img/work2.jpg');
+}
+
+.img-3 {
+    background-image: url('../img/work3.jpg');
+}
+
+.img-4 {
+    background-image: url('../img/work4.jpg');
+}
+
+.img-5 {
+    background-image: url('../img/work5.jpg');
+}
+
+.img-6 {
+    background-image: url('../img/work6.jpg');
+}
+
+
+/* ..................................
+ 04. blog section CSS 
+.................................. */
+
+.blog-section {
+    background: #F5F3FD;
+}
+
+.card {
+    border-bottom: 5px solid #FFC239;
+}
+
+
+/* ..................................
+ 05. footer CSS 
+.................................. */
